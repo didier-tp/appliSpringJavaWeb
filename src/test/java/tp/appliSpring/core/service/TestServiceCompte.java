@@ -25,7 +25,7 @@ public class TestServiceCompte {
 	private static Logger logger = LoggerFactory.getLogger(TestServiceCompte.class);
 	
 	@Autowired
-	private ServiceCompte serviceCompte; //à tester
+	private ServiceCompte serviceCompte; //service à tester
 	
 	@Autowired
 	private DaoClient daoClient; //pour aider à tester
