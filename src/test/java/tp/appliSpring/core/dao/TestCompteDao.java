@@ -28,7 +28,7 @@ public class TestCompteDao {
     private static Logger logger = LoggerFactory.getLogger(TestCompteDao.class);
 	
 	@Autowired
-	private DaoCompte daoCompte; //à tester
+	private DaoCompte daoCompte; //dao à tester
 	
 	
 	@Test
