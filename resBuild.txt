@@ -1,0 +1,121 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.m2i:appliSpringJavaWeb >---------------------
+[INFO] Building appliSpring 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ appliSpringJavaWeb ---
+[INFO] Deleting C:\tp\local-git-didier-tp-repositories\appliSpringJavaWeb\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ appliSpringJavaWeb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ appliSpringJavaWeb ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to C:\tp\local-git-didier-tp-repositories\appliSpringJavaWeb\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ appliSpringJavaWeb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\tp\local-git-didier-tp-repositories\appliSpringJavaWeb\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ appliSpringJavaWeb ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to C:\tp\local-git-didier-tp-repositories\appliSpringJavaWeb\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ appliSpringJavaWeb ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running tp.appliSpring.AppliSpringApplicationTests
+10:45:00.475 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:45:00.486 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:45:00.525 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [tp.appliSpring.AppliSpringApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+10:45:00.538 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [tp.appliSpring.AppliSpringApplicationTests], using SpringBootContextLoader
+10:45:00.545 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [tp.appliSpring.AppliSpringApplicationTests]: class path resource [tp/appliSpring/AppliSpringApplicationTests-context.xml] does not exist
+10:45:00.546 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [tp.appliSpring.AppliSpringApplicationTests]: class path resource [tp/appliSpring/AppliSpringApplicationTestsContext.groovy] does not exist
+10:45:00.547 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [tp.appliSpring.AppliSpringApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:45:00.548 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [tp.appliSpring.AppliSpringApplicationTests]: AppliSpringApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:45:00.602 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [tp.appliSpring.AppliSpringApplicationTests]
+10:45:00.672 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\tp\local-git-didier-tp-repositories\appliSpringJavaWeb\target\classes\tp\appliSpring\AppliSpringApplication.class]
+10:45:00.673 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration tp.appliSpring.AppliSpringApplication for test class tp.appliSpring.AppliSpringApplicationTests
+10:45:00.804 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [tp.appliSpring.AppliSpringApplicationTests]: using defaults.
+10:45:00.805 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:45:00.827 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c18016b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@33aeca0b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@43aaf813, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57ac5227, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4ba302e0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@e98770d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ae67cad, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2f6e28bc, org.springframework.test.context.event.EventPublishingTestExecutionListener@7c098bb3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@31e4bb20, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@18cebaa5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@463b4ac8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@765f05af, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@62f68dff, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@f001896]
+10:45:00.831 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@a4ca3f6 testClass = AppliSpringApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@72ea6193 testClass = AppliSpringApplicationTests, locations = '{}', classes = '{class tp.appliSpring.AppliSpringApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4d6025c5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3fa247d1, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6692b6c6, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4d518b32, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@544d57e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@3d74bf60], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.2)
+
+2022-09-16 10:45:01.294  INFO 10680 --- [           main] t.a.AppliSpringApplicationTests          : Starting AppliSpringApplicationTests using Java 11.0.12 on LAPTOP-D2FC with PID 10680 (started by d2fde in C:\tp\local-git-didier-tp-repositories\appliSpringJavaWeb)
+2022-09-16 10:45:01.296 DEBUG 10680 --- [           main] t.a.AppliSpringApplicationTests          : Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-09-16 10:45:01.296  INFO 10680 --- [           main] t.a.AppliSpringApplicationTests          : The following 2 profiles are active: "embeddedDB", "reInit2"
+2022-09-16 10:45:06.584  WARN 10680 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-16 10:45:07.360  INFO 10680 --- [           main] t.a.AppliSpringApplicationTests          : Started AppliSpringApplicationTests in 6.48 seconds (JVM running for 7.671)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.118 s - in tp.appliSpring.AppliSpringApplicationTests
+[INFO] Running tp.appliSpring.core.dao.TestClientDao
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.2)
+
+2022-09-16 10:45:07.603  INFO 10680 --- [           main] tp.appliSpring.core.dao.TestClientDao    : Starting TestClientDao using Java 11.0.12 on LAPTOP-D2FC with PID 10680 (started by d2fde in C:\tp\local-git-didier-tp-repositories\appliSpringJavaWeb)
+2022-09-16 10:45:07.603 DEBUG 10680 --- [           main] tp.appliSpring.core.dao.TestClientDao    : Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-09-16 10:45:07.603  INFO 10680 --- [           main] tp.appliSpring.core.dao.TestClientDao    : The following 1 profile is active: "embeddedDB"
+2022-09-16 10:45:08.406  WARN 10680 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-16 10:45:08.735  INFO 10680 --- [           main] tp.appliSpring.core.dao.TestClientDao    : Started TestClientDao in 1.166 seconds (JVM running for 9.046)
+2022-09-16 10:45:08.755 DEBUG 10680 --- [           main] tp.appliSpring.core.dao.TestClientDao    : clientSauvegarde=Client [numero=1, prenom=alex, nom=Therieur]
+2022-09-16 10:45:08.788 DEBUG 10680 --- [           main] tp.appliSpring.core.dao.TestClientDao    : clientRelu=Client [numero=1, prenom=alex, nom=Therieur]
+2022-09-16 10:45:08.842 DEBUG 10680 --- [           main] tp.appliSpring.core.dao.TestClientDao    : client1avecSesComptes=Client [numero=2, prenom=luc, nom=Dupond]
+2022-09-16 10:45:08.843 DEBUG 10680 --- [           main] tp.appliSpring.core.dao.TestClientDao    : 	Compte [numero=1, label=compteC1a, solde=100.0]
+2022-09-16 10:45:08.843 DEBUG 10680 --- [           main] tp.appliSpring.core.dao.TestClientDao    : 	Compte [numero=2, label=compteC1b, solde=50.0]
+2022-09-16 10:45:08.889 DEBUG 10680 --- [           main] tp.appliSpring.core.dao.TestClientDao    : clientsDeNomTherieur=[Client [numero=5, prenom=alain, nom=Therieur], Client [numero=4, prenom=alex, nom=Therieur]]
+2022-09-16 10:45:08.897 DEBUG 10680 --- [           main] tp.appliSpring.core.dao.TestClientDao    : clientsDeNomEnT=[Client [numero=4, prenom=alex, nom=Therieur], Client [numero=5, prenom=alain, nom=Therieur], Client [numero=8, prenom=tarte, nom=Tatin]]
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.325 s - in tp.appliSpring.core.dao.TestClientDao
+[INFO] Running tp.appliSpring.core.dao.TestCompteDao
+2022-09-16 10:45:08.917 DEBUG 10680 --- [           main] tp.appliSpring.core.dao.TestCompteDao    : compteSauvegarde=Compte [numero=5, label=compteA, solde=100.0]
+2022-09-16 10:45:08.921 DEBUG 10680 --- [           main] tp.appliSpring.core.dao.TestCompteDao    : compteRelu=Compte [numero=5, label=compteA, solde=100.0]
+2022-09-16 10:45:08.948 DEBUG 10680 --- [           main] tp.appliSpring.core.dao.TestCompteDao    : comptesSansDecouvert=[Compte [numero=1, label=compteC1a, solde=100.0], Compte [numero=2, label=compteC1b, solde=50.0], Compte [numero=3, label=compteC2a, solde=80.0], Compte [numero=4, label=compteC2b, solde=60.0], Compte [numero=6, label=compteC1, solde=100.0], Compte [numero=9, label=compteC4, solde=200.0], Compte [numero=10, label=compteC5, solde=50.0]]
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in tp.appliSpring.core.dao.TestCompteDao
+[INFO] Running tp.appliSpring.core.service.TestServiceCompte
+2022-09-16 10:45:09.000 DEBUG 10680 --- [           main] t.a.core.service.TestServiceCompte       : avant bon virement, soldeA_avant=300.0 et soldeB_avant=100.0
+2022-09-16 10:45:09.025 DEBUG 10680 --- [           main] t.a.core.service.TestServiceCompte       : apres bon virement, soldeA_apres=250.0 et soldeB_apres=150.0
+2022-09-16 10:45:09.037 DEBUG 10680 --- [           main] t.a.core.service.TestServiceCompte       : apres bon virement, operations sur compte A: [Operation [numOp=1, montant=-50.0, label=debit lie au virement, dateOp=2022-09-16, compte=11]]
+2022-09-16 10:45:09.038 DEBUG 10680 --- [           main] t.a.core.service.TestServiceCompte       : apres bon virement, operations sur compte B: [Operation [numOp=2, montant=50.0, label=credit lie au virement, dateOp=2022-09-16, compte=12]]
+2022-09-16 10:45:09.048 DEBUG 10680 --- [           main] t.a.core.service.TestServiceCompte       : avant mauvais virement, soldeA_avant=300.0 et soldeB_avant=100.0
+2022-09-16 10:45:09.053 ERROR 10680 --- [           main] t.a.core.service.TestServiceCompte       : echec normal du virement echec virement echec crediter No value present
+2022-09-16 10:45:09.056 DEBUG 10680 --- [           main] t.a.core.service.TestServiceCompte       : apres mauvais virement, soldeA_apres=300.0 et soldeB_apres=100.0
+2022-09-16 10:45:09.077 DEBUG 10680 --- [           main] t.a.core.service.TestServiceCompte       : comptesDuClient1:[Compte [numero=15, label=compteC1a, solde=100.0], Compte [numero=16, label=compteC1b, solde=50.0]]
+2022-09-16 10:45:09.088 DEBUG 10680 --- [           main] t.a.core.service.TestServiceCompte       : compteSauvegarde=Compte [numero=19, label=compteC1, solde=100.0]
+2022-09-16 10:45:09.090 DEBUG 10680 --- [           main] t.a.core.service.TestServiceCompte       : compteRelu=Compte [numero=19, label=compteC1, solde=100.0]
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 s - in tp.appliSpring.core.service.TestServiceCompte
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.2:jar (default-jar) @ appliSpringJavaWeb ---
+[INFO] Building jar: C:\tp\local-git-didier-tp-repositories\appliSpringJavaWeb\target\appliSpringJavaWeb-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.7.2:repackage (repackage) @ appliSpringJavaWeb ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.251 s
+[INFO] Finished at: 2022-09-16T10:45:10+02:00
+[INFO] ------------------------------------------------------------------------
