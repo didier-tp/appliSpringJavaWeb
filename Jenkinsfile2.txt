@@ -1,0 +1,43 @@
+pipeline {
+    agent any
+
+    stages {
+         stage('SCM') {
+             steps {
+                // Get some code from a GitHub repository
+                //git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+                git url : 'file:///C:/referentiels/appliSpringJavaWeb.git' , branch : 'main'
+             }
+         }
+        stage('Build') {
+             steps {
+            
+                // Run Maven on a Unix agent.
+                //sh "mvn -Dmaven.test.failure.ignore=true clean package"
+
+                // To run Maven on a Windows agent, use
+                bat "mvn -Dmaven.test.failure.ignore=true clean package"
+            }
+
+            post {
+                // If Maven was able to run the tests, even if some of the test
+                // failed, .....
+                success {
+                 
+                    bat "mvn javadoc:javadoc"
+                    echo "OK , on pourrait faire autre chose ici"
+                }
+            }
+        }
+         stage('sonar scan') {
+              steps {
+                   bat 'mvn sonar:sonar  -Dsonar.host.url=http://localhost:9000 -Dsonar.login=admin -Dsonar.password=admin123'
+              }
+         }
+         stage('prepa_docker') {
+              steps {
+                   echo 'construction container docker (souvent sous linux)'
+              }
+         }
+    }
+}
